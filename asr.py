@@ -1,3 +1,7 @@
+'''
+Generating transcripts
+'''
+
 import librosa
 import os
 from transformers import Wav2Vec2Processor, Wav2Vec2ForCTC
